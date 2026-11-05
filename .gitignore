@@ -1,3 +1,4 @@
 .idea/
 environnement/persistant/*                                                                                                                                                    !environnement/persistant/.gitkeep
-
+CLAUDE.md
+.DS_Store
