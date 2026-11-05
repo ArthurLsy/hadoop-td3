@@ -1,4 +1,4 @@
-### 1 - Sans IA : lire le cas, explorer les données, relever les ambiguïtés et formuler les hypothèses.
+## 1 - Sans IA : lire le cas, explorer les données, relever les ambiguïtés et formuler les hypothèses.
 
 Doublons repéré avec : sort annulations_20261115.csv | uniq -d
 
@@ -22,3 +22,16 @@ Anomalies :
     colonnes vident ici "client_id"
     S00153786		P00111	electromenager	https://www.marcheplus.example/produit/P00111	2026-11-15 7:23:22
 
+    o à la palce d'un O
+
+#### Ambiguités du sujet
+
+    Les fichiers de correction doivent modifier les donées déja agrégé ? 
+        Ne touche pas a la version original. Jointure des corrections aux commandes
+
+    Que faire des annulations qui ne correspondnent a aucune commande ?
+    Commande annulé après la cloture de la journée ?
+        on garde les anulations orphlines de coté et a chaque "jet" on les reparcours
+
+
+    
