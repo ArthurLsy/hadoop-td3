@@ -1,0 +1,68 @@
+{
+  "publiable": true,
+  "controles": [
+    {
+      "controle": "flux_commerce_non_vide",
+      "ok": true,
+      "detail": "8607 lignes",
+      "bloquant": true
+    },
+    {
+      "controle": "flux_consultations_non_vide",
+      "ok": true,
+      "detail": "40320 lignes",
+      "bloquant": true
+    },
+    {
+      "controle": "commerce_entree_egale_sorties",
+      "ok": true,
+      "detail": "entrée=8607 ; VERSION=7879 + CORRORPH=0 + ANNOK=466 + ORPH=20 + DOUBLON=79 + REJ=163 = 8607",
+      "bloquant": true
+    },
+    {
+      "controle": "consultations_entree_egale_sorties",
+      "ok": true,
+      "detail": "entrée=40320 ; distinctes=40066 + doublons=200 + rejets=54 = 40320",
+      "bloquant": true
+    },
+    {
+      "controle": "net_egal_brut_moins_annulations",
+      "ok": true,
+      "detail": "brut=405785.73 - annulations=22302.41 = 383483.32 ; net agrégé=383483.32 ; brut agrégé=405785.73",
+      "bloquant": true
+    },
+    {
+      "controle": "taux_rejets_commerce",
+      "ok": true,
+      "detail": "1.89 % (seuil 5 %)",
+      "bloquant": true
+    },
+    {
+      "controle": "taux_rejets_consultations",
+      "ok": true,
+      "detail": "0.13 % (seuil 5 %)",
+      "bloquant": true
+    },
+    {
+      "controle": "aucune_anomalie_bloquante",
+      "ok": true,
+      "detail": "0 anomalie(s) bloquante(s)",
+      "bloquant": true
+    }
+  ],
+  "compteurs": {
+    "commerce": {
+      "VERSION": 7879,
+      "LIGNE": 7879,
+      "ANNOK": 466,
+      "DOUBLON": 79,
+      "REJ": 163,
+      "ORPH": 20
+    },
+    "consultations": {
+      "REJ": 54,
+      "P": 406,
+      "DOUBLON": 200
+    }
+  }
+}
