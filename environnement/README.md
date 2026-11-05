@@ -157,3 +157,5 @@ hdfs dfs -put /persistant/fichier /chemin/dans/hdfs/
 ## En cas de conflit
 
 Si Docker signale qu'un nom de conteneur ou un port est déjà utilisé, un autre cluster tourne sans doute encore, par exemple celui du TD1. Arrêtez-le depuis son propre dossier avec `docker compose down`, sans `-v` si vous voulez garder ses données.
+
+Lien des consignes du projet : https://slamwiki2.kobject.net/eadl/bloc5/fm3/td3
